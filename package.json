@@ -13,15 +13,22 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@shopify/app-bridge-react": "^1.6.7",
     "@shopify/koa-shopify-auth": "^3.1.33",
+    "@shopify/koa-shopify-graphql-proxy": "^3.1.1",
     "@shopify/polaris": "^3.21.1",
     "@zeit/next-css": "^1.0.1",
+    "apollo-boost": "^0.4.4",
     "dotenv": "^8.1.0",
+    "graphql": "^14.5.3",
     "isomorphic-fetch": "^2.2.1",
+    "js-cookie": "^2.2.1",
     "koa": "^2.8.1",
     "koa-session": "^5.12.3",
     "next": "^9.0.5",
     "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react-apollo": "^3.0.1",
+    "react-dom": "^16.9.0",
+    "store-js": "^2.0.4"
   }
 }
