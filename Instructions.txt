@@ -1,0 +1,8 @@
+#Create a .env file in the root directory and add following content:- 
+-------------------------------------------------------------------
+SHOPIFY_API_KEY='YOUR_KEY'
+SHOPIFY_API_SECRET_KEY='YOUR_SECRET'
+
+After starting up the server and dev, naviagte to:
+-------------------------------------------------------------------
+https://<YOUR_NGROK_ADDRESS>/auth?shop=<DEV_STORE_NAME>.myshopify.com
